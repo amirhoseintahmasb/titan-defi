@@ -41,8 +41,8 @@ cp .env.example .env
 1. Configure your `.env` file:
 
 PRIVATE_KEY=your_private_key
-TITAN_TESTNET_RPC=https://testnet-rpc.titanlabs.xyz
-TITAN_MAINNET_RPC=https://mainnet-rpc.titanlabs.xyz
+TITAN_TESTNET_RPC=https://titan-json-rpc.titanlab.io
+TITAN_MAINNET_RPC=https://titan-json-rpc.titanlab.io
 ETHERSCAN_API_KEY=your_etherscan_api_key
 
 ````example.env
@@ -96,10 +96,10 @@ npx hardhat coverage
 ### Titan Testnet
 
 - **Network Name**: Titan Testnet
-- **RPC URL**: https://testnet-rpc.titanlabs.xyz
+- **RPC URL**: [testnet](https://faucet.titannet.io/)
 - **Chain ID**: 1001
 - **Currency Symbol**: TKX
-- **Block Explorer**: https://testnet.titanscan.xyz
+- **Block Explorer**: 
 
 ### Titan Mainnet
 
@@ -107,7 +107,7 @@ npx hardhat coverage
 - **RPC URL**: https://titan-json-rpc.titanlab.io
 - **Chain ID**: 1
 - **Currency Symbol**: TKX
-- **Block Explorer**: https://titanscan.xyz
+- **Block Explorer**: [https://test1.titannet.io/](https://test1.titannet.io/)
 
 ## 🔧 Network Configuration
 
@@ -116,10 +116,10 @@ npx hardhat coverage
 1. Open MetaMask → Networks → Add Network
 2. Fill in the following details:
    - Network Name: Titan Testnet
-   - New RPC URL: https://testnet-rpc.titanlabs.xyz
+   - New RPC URL: [testnet](https://test1.titannet.io/)
    - Chain ID: 1001
    - Currency Symbol: tTITAN
-   - Block Explorer URL: https://testnet.titanscan.xyz
+   - Block Explorer URL: [explorer](https://titan-json-rpc.titanlab.io)
 
 ### MetaMask Configuration for Mainnet
 
@@ -133,7 +133,7 @@ npx hardhat coverage
 
 ## 🚰 Getting Testnet Tokens
 
-1. Visit the Titan Testnet Faucet: [https://faucet.titanlabs.xyz](https://titan-json-rpc.titanlab.io)]
+1. Visit the Titan Testnet Faucet: [faucet](https://faucet.titannet.io/)]
 2. Connect your wallet
 3. Request test tokens (tTITAN)
 4. Wait for confirmation (usually takes 1-2 minutes)

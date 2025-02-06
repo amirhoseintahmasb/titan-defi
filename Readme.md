@@ -15,7 +15,7 @@ Advanced DeFi integration contracts leveraging Uniswap v3 Universal Router for e
 
 ## 🛠 Tech Stack
 
-- Solidity ^0.8.20
+- Solidity ^0.8.24
 - Hardhat
 - OpenZeppelin Contracts
 - Uniswap V3 SDK
@@ -39,8 +39,6 @@ cp .env.example .env
 ## ⚙️ Configuration
 
 1. Configure your `.env` file:
-
-I'll help you add this content to your README.md file. Here's how the changes should be applied:
 
 ```markdown:README.md
 # 🌟 Titan Labs Integration Smart Contracts

@@ -40,47 +40,6 @@ cp .env.example .env
 
 1. Configure your `.env` file:
 
-```markdown:README.md
-# 🌟 Titan Labs Integration Smart Contracts
-
-Advanced DeFi integration contracts leveraging Uniswap v3 Universal Router for efficient token swapping and liquidity provision on Titan Chain.
-
-## 📋 Features
-
-- Universal Router Integration for optimal token swaps
-- Advanced yield farming strategies
-- Automated liquidity provision
-- Gas-optimized contract interactions
-- Multi-token support
-- Emergency withdrawal functionality
-- Access control and role management
-- Pausable operations for security
-
-## 🛠 Tech Stack
-
-- Solidity ^0.8.20
-- Hardhat
-- OpenZeppelin Contracts
-- Uniswap V3 SDK
-- Universal Router Protocol
-- Chainlink Price Feeds
-
-## 📦 Installation
-
-# Clone the repository
-git clone https://github.com/yourusername/titan-labs-integration
-
-# Install dependencies
-npm install
-
-# Copy environment file
-cp .env.example .env
-
-## ⚙️ Configuration
-
-1. Configure your `.env` file:
-```
-
 PRIVATE_KEY=your_private_key
 TITAN_TESTNET_RPC=https://testnet-rpc.titanlabs.xyz
 TITAN_MAINNET_RPC=https://mainnet-rpc.titanlabs.xyz
@@ -131,7 +90,6 @@ npx hardhat coverage
 - Role-based access control
 - Slippage protection mechanisms
 
-// ... existing code ...
 
 ## 🌐 Titan Labs Network Details
 
@@ -140,15 +98,15 @@ npx hardhat coverage
 - **Network Name**: Titan Testnet
 - **RPC URL**: https://testnet-rpc.titanlabs.xyz
 - **Chain ID**: 1001
-- **Currency Symbol**: tTITAN
+- **Currency Symbol**: TKX
 - **Block Explorer**: https://testnet.titanscan.xyz
 
 ### Titan Mainnet
 
 - **Network Name**: Titan
-- **RPC URL**: https://rpc.titanlabs.xyz
+- **RPC URL**: https://titan-json-rpc.titanlab.io
 - **Chain ID**: 1
-- **Currency Symbol**: TITAN
+- **Currency Symbol**: TKX
 - **Block Explorer**: https://titanscan.xyz
 
 ## 🔧 Network Configuration
@@ -168,14 +126,14 @@ npx hardhat coverage
 1. Open MetaMask → Networks → Add Network
 2. Fill in the following details:
    - Network Name: Titan
-   - New RPC URL: https://rpc.titanlabs.xyz
+   - New RPC URL: https://titan-json-rpc.titanlab.io
    - Chain ID: 1
    - Currency Symbol: TITAN
    - Block Explorer URL: https://titanscan.xyz
 
 ## 🚰 Getting Testnet Tokens
 
-1. Visit the Titan Testnet Faucet: [https://faucet.titanlabs.xyz](https://faucet.titanlabs.xyz)
+1. Visit the Titan Testnet Faucet: [https://faucet.titanlabs.xyz](https://titan-json-rpc.titanlab.io)]
 2. Connect your wallet
 3. Request test tokens (tTITAN)
 4. Wait for confirmation (usually takes 1-2 minutes)

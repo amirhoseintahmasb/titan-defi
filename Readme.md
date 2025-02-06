@@ -39,13 +39,12 @@ cp .env.example .env
 ## ⚙️ Configuration
 
 1. Configure your `.env` file:
-
+```
 PRIVATE_KEY=your_private_key
 TITAN_TESTNET_RPC=
 TITAN_MAINNET_RPC=
 ETHERSCAN_API_KEY=your_etherscan_api_key
-
-````example.env
+```
 
 ## 🚀 Deployment
 

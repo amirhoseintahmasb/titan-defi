@@ -41,8 +41,8 @@ cp .env.example .env
 1. Configure your `.env` file:
 
 PRIVATE_KEY=your_private_key
-TITAN_TESTNET_RPC=https://titan-json-rpc.titanlab.io
-TITAN_MAINNET_RPC=https://titan-json-rpc.titanlab.io
+TITAN_TESTNET_RPC=
+TITAN_MAINNET_RPC=
 ETHERSCAN_API_KEY=your_etherscan_api_key
 
 ````example.env

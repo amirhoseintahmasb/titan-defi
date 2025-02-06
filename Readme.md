@@ -173,15 +173,14 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## ☕️ Buy me a Coffee
 
-Created with ❤️ by Alex
+Created by Amir (grevis)
 
 If you find this project helpful, consider buying me a coffee!
 
-ETH Address: `0xafEE51c9d1499C3D8969101BECcaD6e76E65A610`
+ETH Address: `0x742d35Cc6634C0532925a3b844Bc454e4438f44e`
 
 ## 📞 Support
 
 For support and inquiries:
 - Create an issue
 - Follow us on [X](https://x.com/groygrevis)
-```

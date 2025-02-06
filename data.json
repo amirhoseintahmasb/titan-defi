@@ -1,0 +1,29 @@
+{
+  "tokens": {
+    "WETH": "0xd87A351560658FEfC96828442d98c4eB590EE303",
+    "USDT": "0x8A5bfEF1d7F0c17ff560FEF5bf33921bA8b8Fb35",
+    "USDC": "0x30083e12ff26174aCC65940F0192569Eeb4C1B26",
+    "DAI": "0xc116592848004287E6BfB57f87F11002A0074384"
+  },
+  "uniswapV3": {
+    "factory": "0x47E36eE13f0ceeaa453A1fD1ca55c1acE0D7A9d4",
+    "swapRouter": "0xdc1c1E9a9B26E207eC9aA8a4CA4c46B36Cb1b499",
+    "nftDescriptor": "0x131067Ad55FF7c9823aE50F71FeDc78e6331fB99",
+    "nonfungibleTokenPositionDescriptor": "0x570d528000B25e020227C9e69Fb7c8fa1566da76",
+    "nonfungiblePositionManager": "0xc6Ba746669bAfE65cf3305FC3A3b17Daba96048C",
+    "pools": {
+      "USDC_USDT": {
+        "address": "0xcE2339d047055D8DeBe59c8fb295a8f8BfD2cB45",
+        "token0": "0x30083e12ff26174aCC65940F0192569Eeb4C1B26",
+        "token1": "0x8A5bfEF1d7F0c17ff560FEF5bf33921bA8b8Fb35",
+        "fee": 500
+      },
+      "USDC_DAI": {
+        "address": "0x30e7155760DC21103a659991b1F3429C242ab7f6",
+        "token0": "0x30083e12ff26174aCC65940F0192569Eeb4C1B26",
+        "token1": "0xc116592848004287E6BfB57f87F11002A0074384",
+        "fee": 500
+      }
+    }
+  }
+}

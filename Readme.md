@@ -96,46 +96,47 @@ npx hardhat coverage
 ### Titan Testnet
 
 - **Network Name**: Titan Testnet
-- **RPC URL**: [testnet](https://faucet.titannet.io/)
-- **Chain ID**: 1001
+- **RPC URL**: [testnet](https://titan-testnet-faucet.titanlab.io)
+- **Chain ID**: titan_18889-1
 - **Currency Symbol**: TKX
-- **Block Explorer**: 
+- **Block Explorer**: [link](https://testnet.tkxscan.io)
 
 ### Titan Mainnet
 
 - **Network Name**: Titan
-- **RPC URL**: https://titan-json-rpc.titanlab.io
-- **Chain ID**: 1
+- **Coin Type**: 60
+- **RPC URL**: [https://titan-json-rpc.titanlab.io](https://rest.cosmos.directory/titan)
+- **Chain ID**: titan_18888-1
 - **Currency Symbol**: TKX
-- **Block Explorer**: [https://test1.titannet.io/](https://test1.titannet.io/)
+- **Block Explorer**: [link](https://titan-explorer-light.titanlab.io/Titan))
 
 ## 🔧 Network Configuration
 
-### MetaMask Configuration for Testnet
+### Leap Cosmos Wallet Configuration for Testnet
 
 1. Open MetaMask → Networks → Add Network
 2. Fill in the following details:
    - Network Name: Titan Testnet
-   - New RPC URL: [testnet](https://test1.titannet.io/)
-   - Chain ID: 1001
-   - Currency Symbol: tTITAN
-   - Block Explorer URL: [explorer](https://titan-json-rpc.titanlab.io)
+   - New RPC URL: [https://test1.titannet.io/](https://rest.cosmos.directory/titan)
+   - Chain ID: titan_18888-1
+   - Currency Symbol: TKX
+   - Block Explorer URL: [explorer](https://testnet.tkxscan.io)
 
-### MetaMask Configuration for Mainnet
+### Leap Cosmos Wallet Configuration for Mainnet
 
 1. Open MetaMask → Networks → Add Network
 2. Fill in the following details:
    - Network Name: Titan
-   - New RPC URL: https://titan-json-rpc.titanlab.io
-   - Chain ID: 1
-   - Currency Symbol: TITAN
-   - Block Explorer URL: https://titanscan.xyz
+   - New RPC URL: [https://titan-json-rpc.titanlab.io](https://rest.cosmos.directory/titan)
+   - Chain ID: titan_18888-1
+   - Currency Symbol: TKX
+   - Block Explorer URL: https://testnet.tkxscan.io
 
 ## 🚰 Getting Testnet Tokens
 
-1. Visit the Titan Testnet Faucet: [faucet](https://faucet.titannet.io/)]
+1. Visit the Titan Testnet Faucet: [faucet](https://titan-testnet-faucet.titanlab.io)
 2. Connect your wallet
-3. Request test tokens (tTITAN)
+3. Request test tokens (TKX)
 4. Wait for confirmation (usually takes 1-2 minutes)
 
 ## 📝 Smart Contract Deployment Addresses
